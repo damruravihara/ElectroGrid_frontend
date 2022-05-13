@@ -23,11 +23,12 @@
 
 <div class="container">
 <br>
-<center><h2 class="header">Customer Management</h2></center>
 <div class="row">
 	<div class="col-lg-12">
 	<div class="card m-b-32">
 	<div class="card-body">
+	<center><h2 class="header">Customer Management</h2></center>
+	<hr>
 	<form id="formCustomer" name="formCustomer" method="post" action="AddCustomer.jsp">
 	
 		<label>Customer Name</label> <input id="cus_name"
@@ -41,7 +42,7 @@
 			<br>
 			
 		    <label>Phone Number</label> <input id="cus_phone_no"
-			name="cus_phone_no" type="text"
+			name="cus_phone_no" type="number"
 		    class="form-control form-control-sm">
 			<br>
 			
@@ -68,7 +69,7 @@
 </div>
 			<br>
 			<label>Account Number</label> <input id="account_number"
-			name="account_number" type="text"
+			name="account_number" type="number"
 		    class="form-control form-control-sm">
 			<br>
 			
