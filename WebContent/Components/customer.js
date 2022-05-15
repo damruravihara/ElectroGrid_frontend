@@ -147,6 +147,12 @@ if ($("#cus_phone_no").val().trim() == "")
 return "Insert Insert Phone Number.";
 }
 
+var tempPhone = $("#cus_phone_no").val().trim();
+if(tempPhone.length>10)
+{
+return "Phone Number should be maximum 10 numbers Only.";
+}
+
 //cus_nic
 if ($("#cus_nic").val().trim() == "")
 {
@@ -170,6 +176,11 @@ if ($("#account_number").val().trim() == "")
 {
 return "Insert Account Number.";
 }
+var tempAccount = $("#account_number").val().trim();
+if (!$.isNumeric(tempAccount))
+ {
+ return "Insert a numerical value for Account Number.";
+ }
 
 return true;
 }

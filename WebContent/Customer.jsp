@@ -29,7 +29,7 @@
 	<div class="card-body">
 	<center><h2 class="header">Customer Management</h2></center>
 	<hr>
-	<form id="formCustomer" name="formCustomer" method="post" action="AddCustomer.jsp">
+	<form id="formCustomer" name="formCustomer" method="post" action="Customer.jsp">
 	
 		<label>Customer Name</label> <input id="cus_name"
 			name="cus_name" type="text"
@@ -69,7 +69,7 @@
 </div>
 			<br>
 			<label>Account Number</label> <input id="account_number"
-			name="account_number" type="number"
+			name="account_number" type="text"
 		    class="form-control form-control-sm">
 			<br>
 			
